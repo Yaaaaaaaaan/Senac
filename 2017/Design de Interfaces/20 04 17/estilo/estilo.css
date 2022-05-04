@@ -1,0 +1,267 @@
+body {
+	background-color:#403125;
+}
+
+.principal {
+	background-color:#E0CFA3;
+	
+}
+
+
+.menu {
+	margin: 0 auto;
+	padding:5px;
+	list-style:none;
+	background-color:#282015;
+	background-image: linear-gradient(to bottom,#282015, #403125);
+	width:auto;
+	
+	
+}
+
+
+ .submenu {
+	margin: 0 auto;
+	padding:0px;
+	list-style:none;
+	background-color:#282015;
+	background-image: linear-gradient(to bottom,#282015, #403125);
+	
+}
+
+.menu a {
+	text-decoration:none;
+	display:block;
+	padding: 10px;
+	color:#E0CFA3;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	width:auto;
+}
+
+.menu li {
+	position:relative;
+	padding:10px;
+	float:left;
+}
+
+.menu li:hover {
+	background-color:#403125;
+	border-radius: 10px;
+	width:auto;
+	height:auto;
+	
+}
+
+.menu li:hover > .submenu {
+	display:block;
+}
+
+.submenu {
+display: none;
+position:absolute;
+min-width:auto;
+}
+
+.submenu li:hover {
+background-color:#403125;
+border-radius: 0px;
+
+
+}
+
+.exibe:after{
+display:block;
+clear:both;
+visibility:hidden;
+overflow:hidden;
+height:0;
+line-height:0;
+content:'.';
+}
+
+.espaco{
+	padding-bottom:5px;
+}
+
+.window{
+			display:none;
+			width: 60%;
+			height:600px;
+			position:absolute;
+			left:0;
+			top:0;
+			z-index:9000;
+			padding-left:15px;
+			padding-bottom:35px;
+			padding-top:50px;
+			padding-right:15px;
+			border-radius:15px;
+			color:#fff;
+		}
+ 
+			#mascara{
+				display:none;
+				position:absolute;
+				left:0;
+				top:0;
+				z-index:9000;
+				background-color:#000;
+			}
+ 
+				.fechar{display:block; text-align:right;padding-left:20px;}
+				
+				.Cx1 {
+
+					width:100% ;
+					Height:250px;
+					Background-color: none ;
+					Border: 1px solid;
+					float:left;
+					margin:0px 15px 15px 0px;
+					padding:0px;
+					border-radius:15px;
+				}	.Cx2 {
+
+					width:100% ;
+					Height:515px;
+					Background-color: none;
+					Border: 1px solid;
+					padding:0px;
+					margin:0px 0px 0px 0px;
+					padding:0px;
+					border-radius:15px;
+				
+				}
+				.Cx3 {
+
+					width:100% ;
+					Height:515px;
+					Background-color: rgba(255,255,255,0.4) ;
+					Border: 1px solid;
+					float:right;
+					margin:0px 0px 0px 0px;
+					padding:10px;
+					border-radius:15px;
+				
+				}
+				
+				.coluna1{
+					width:657px ;
+					Height:515px;
+					float:right;
+				}
+				
+				.coluna2{
+					width:273px ;
+					Height:500px;
+					float:left;
+				}
+				
+					#Cxw{
+						background-color: rgba(123,123,123,0.3);
+						border-radius:15px;
+						padding-left:15px;
+						padding-right:0px;
+						padding-top:15px;
+						padding-bottom:15px;
+					}
+						
+
+#fundx{
+	
+	background-color: rgba(123,123,123,0.3);
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	position:after;
+	border-left:150%;
+	border-right:150%;
+	
+}
+#Cxw1{
+	background-color: rgba(123,123,123,0.7);
+	border-radius:20px;
+	width:100%;
+	height:1000px;
+}
+
+#fech{
+	padding-bottom:15px;
+	
+}
+
+#fotx1{ width:100%; height:100%; background-image:url(../Fotos/bololouco.jpg); float:left; margin-top:0px; border-radius:15px;}
+#fotx1 span {display:none; width:100%; height:100%; background-color:rgba(0,0,0,0.3); background-repeat:repeat-x;
+ -webkit-transition: background 2s ease;
+-moz-transition: background 2s ease;
+-ms-transition: background 2s ease;
+-o-transition: background 2s ease;
+transition: background 2s ease;;
+border-radius:15px;}
+#fotx1 span img{ float:right; }
+#fotx1:hover span {display: block; cursor:pointer;}
+
+
+#fotx2{ width:100%; height:100%; background-repeat:no-repeat; background-image:url(../Fotos/slide4.jpg); float:left; margin-top:0px; border-radius:15px;}
+#fotx2 span {display:none; width:100%; height:100%; background-color:rgba(0,0,0,0.3); background-repeat:repeat-x;
+ -webkit-transition: background 2s ease;
+-moz-transition: background 2s ease;
+-ms-transition: background 2s ease;
+-o-transition: background 2s ease;
+transition: background 2s ease;;
+border-radius:15px;}
+#fotx2 span img{ float:right; }
+#fotx2:hover span {display: block; cursor:pointer;}
+
+#fotx3{ width:100%; height:100%;background-clip:content-box; background-repeat:no-repeat;background-size:cover; background-position:center; background-image:url(../Fotos/cupcakelouco.jpg); float:left; margin-top:0px; border-radius:15px;}
+#fotx3 span {display:none; width:100%; height:100%; background-color:rgba(0,0,0,0.3); background-repeat:repeat-x;
+ -webkit-transition: background 2s ease;
+-moz-transition: background 2s ease;
+-ms-transition: background 2s ease;
+-o-transition: background 2s ease;
+transition: background 2s ease;;
+border-radius:15px;}
+#fotx3 span img{ float:right; }
+#fotx3:hover span {display: block; cursor:pointer;}
+
+
+
+
+
+
+.fotx1{
+	width: 100%;
+	height: 200px;
+	margin-top: 3px;
+	background-image:url();
+	}
+
+.combo1{
+	width:100%;
+	height:100%;
+	z-index:9000;
+	display:none;
+}	
+
+
+
+
+
+
+
+.limpa {clear:both;}
+
+.rodape {
+			font-size:17px;
+			font-weight:300;
+			color:#FFF;
+			text-align:center;
+			background-color:#282015;
+			background-image: linear-gradient(to bottom,#282015, #403125);
+			width:100%;
+			height:27px auto;
+			bottom:0;
+			position:after;
+		}

@@ -1,0 +1,156 @@
+<!doctype>
+<html lang="pt-br">
+<meta charset="utf-8">
+<link rel="stylesheet" href="csslouco.css" />
+<head><title>Avaliação de Javascript</title>
+	
+</head>
+
+<script language="JavaScript">
+				<!--
+				
+					function Saudacao (){
+						switch(evt){
+							case'entrada':alert('Seja bem vindo');break;
+							case'saida':alert('Volte Sempre');break;
+						}
+						
+					}
+					
+						function enviarform() {
+							alert ('Enviado com sucesso!');
+							
+						}
+						
+						function ChecCampo(Texto) {
+							if(Texto.Value=='') {
+								alert('O campo '+Texto.name+' não foi preenchido');
+							}
+						}
+
+						function VerificaAlt () {
+							if(Alt.Value.length>0){
+								alert('O campo '+Alt.name+' já foi preenchido');
+							}
+						}
+						function ChecaCpf() {
+							if(document.Formulario.CPF.Value.length=11){
+								alert('O campo CPF não foi preenchido corretamente');
+							}
+						}
+						function EnviarForm() {
+							if(confirm('Deseja enviar o formulário agora?'))
+								{
+									return true;
+								}
+							else
+								{
+									return false;
+								}
+						}
+
+						
+						
+
+
+				//-->
+			</script>
+			
+			<style type="text/css">
+				.cor {
+					background-color:#803F24;
+					color:#fff;
+				}
+			</style>	
+		</head>
+		
+	<body onload=Saudacao('entrada') onunload=Saudacao('saida')>
+		<div class="cor">
+			<div class="row">
+				<div class="medium-12 columns">
+				
+				
+					<div class="row cor">
+						<div class="medium-12">
+						<br>
+							<center><h1><font color=white> Trabalhe Conosco </font></h1></center>
+						<br>
+						</div>	
+					</div>
+					
+					<div id="formulario">
+					
+						<center>
+							<form name="form1" action="" method="post" onsubmit="return EnviarForm()">
+							<table>
+							<tr>
+							<td><label>Nome:</label></td>
+							<td><input type="text" name="nome" size="20" maxlength="20" placeholder="Ex.: Juca" onchange="VerificaAlt(this)" onBlur="ChecCampo(Texto)"></td>
+							</tr>
+							<tr>
+							<td><label>Sobrenome</label></td>
+							<td><input type="text" name="sobrenome" size="30" maxlength="30" placeholder="Ex.: Silveira de Lemos"></td>
+							</tr>
+							<tr>
+							<td><label>CPF:</label></td>
+							<td><input type="text" name="cpf" size="11" maxlength="11" placeholder="Ex.: 11567898523"></td>
+							</tr>
+							<tr>
+							<td><label>Identidade:</label></td>
+							<td><input type="text" name="rg" size="9" placeholder="Ex.: 986536552"></td>
+							</tr>
+							<tr>
+							<td><label>Telefone Fixo:</label></td>
+							<td><input type="text" name="tel" size="8" placeholder="Ex.: 55695719"></td>
+							</tr>
+							<tr>
+							<td><label>Telefone Celular:</label></td>
+							<td><input type="text" name="cel" size="9" placeholder="Ex.: 986556632"></td>
+							</tr>
+							<tr>
+							<td><label>Sexo:</label></td>
+							<td><input type="radio" name="sexo">  Masculino
+							<input type="radio" name="sexo">  Feminino</td>
+							</tr>
+							
+							<td>Estado:</td><td><select size="1" name="uf">
+							<option value="AC">AC</option>
+							<option value="AL">AL</option>
+							<option value="AM">AM</option>
+							<option value="AP">AP</option>
+							<option value="BA">BA</option>
+							<option value="CE">CE</option>
+							<option value="DF">DF</option>
+							<option value="ES">ES</option>
+							<option value="GO">GO</option>
+							<option value="MA">MA</option>
+							<option value="MG">MG</option>
+							<option value="MS">MS</option>
+							<option value="MT">MT</option>
+							<option value="PA">PA</option>
+							<option value="PB">PB</option>
+							<option value="PE">PE</option>
+							<option value="PI">PI</option>
+							<option value="PR">PR</option>
+							<option value="RJ">RJ</option>
+							<option value="RN">RN</option>
+							<option value="RO">RO</option>
+							<option value="RR">RR</option>
+							<option value="RS">RS</option>
+							<option value="SC">SC</option>
+							<option value="SE">SE</option>
+							<option value="SP">SP</option>
+							<option value="TO">TO</option>
+							</select></td></tr>
+							</table>
+							<button class="success tiny" function="submit"> Enviar </button>
+							<button class="alert tiny" function="Reset"> Apagar </button>
+							</form>
+						</center>
+</script>
+</div>
+</div>
+</div>
+</body>
+
+</html>

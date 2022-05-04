@@ -1,0 +1,25 @@
+/*Arquivo estilo1 CSS1*/
+#banner {
+		 width:auto;
+		 height:200px;
+		 background-image:url(bannerwood.jpg);
+}
+#menu {
+	   width:auto;
+	   height:40px;
+	   background-image:url(menuwood.jpg);
+	   
+}
+#conteudo {
+		   width:auto;
+		   height:790px;
+		   background-image:url(conteudowood.jpg);
+		   
+		   
+		   
+}
+#rodape {
+		 width:auto;
+		 height:25px;
+		 background-image:url(rodapewood.jpg);
+}

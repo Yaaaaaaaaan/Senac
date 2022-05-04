@@ -1,0 +1,204 @@
+	body{
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Verdana" ;
+		Font-size:8px;
+		background-color:black;
+	}
+	
+	
+
+	h1{ color: white ;
+			text-align:center;	
+	}
+	
+	
+
+		.container{
+			width:960px;
+			margin:0 auto;
+		}
+		
+
+
+			.Praia{
+				border-color: #ccc #999 #ccc #999 ;
+				border: 2px solid #ccc ;
+				margin-bottom: 15px;
+				padding: 10px;
+				background-color:white;
+				color:black;
+				width:960px;
+				height:310px
+			}
+			
+			
+
+		.Mulheres{
+			border-color: #ccc #999 #ccc #999 ;
+			border: 2px solid #ccc ;
+			margin-bottom: 15px;
+			padding: 10px;
+			background-color:white;
+			color:black;
+			width:960px;
+			height:310px
+		}
+		
+		
+	
+			.Cachoeira{
+				border-color: #ccc #999 #ccc #999 ;
+				border: 2px solid #ccc ;
+				margin-bottom: 15px;
+				padding: 10px;
+				background-color:white;
+				color:black;
+				width:960px;
+			    height:310px
+			}
+			
+			
+	
+		.Tempo{
+			border-color: #ccc #999 #ccc #999 ;
+			border: 2px solid #ccc ;
+			margin-bottom: 15px;
+			padding: 10px;
+			background-color:white;
+			color:black;
+			width:960px;
+			height:310px			
+		}
+		
+		
+	
+	.Praia h2 { 
+		border-bottom:1px dashed #95a5a6;
+		margin : 0px;
+	}
+	
+	
+		.praia img{
+			float:right;
+			clear:both;
+			margin-top:10px;
+			margin-right:10px;
+			border:1px solid #95a5a6;
+			padding:3px;
+			width:240px;
+			height:240px;
+		}
+	
+	
+	
+	.Mulheres h2 {
+		border-bottom:1px dashed #95a5a6;
+		margin: 0px;		
+	}
+	
+	
+	
+		.Mulheres img {
+			float:right;
+			margin-top:10px;
+			margin-right:10px;
+			border:1px solid #95a5a6;
+			padding:3px;
+			width:240px;
+			height:240px;
+		}
+	
+	
+	
+	.Cachoeira h2{
+		Border-bottom:1px dashed #95a5a6;
+		margin:0px;
+	}
+	
+	
+	
+		.Cachoeira img{	
+			float:right;
+			margin-top:10px;
+			margin-right:10px;			
+			border:1px solid #95a5a6;
+			padding:3px;
+			width:240px;
+			height:240px;
+		}
+		
+	
+	
+	.Tempo h2 {
+		Border-bottom:1px dashed #95a5a6;
+		margin:0px;
+	}
+	
+	
+	
+		.Tempo img{
+			float:right;
+			margin-top:10px;
+			margin-right:10px;
+			border:1px solid #95a5a6;
+			padding:3px;
+			width:240px;
+			height:240px;
+			}
+			
+			
+	
+	.clear {
+		clear:both;
+	}
+	
+	
+	
+	.footer {
+		font-size:12px;
+		text-align:center;
+		background-color:#ccc;
+		width:980px;
+	}
+	
+	
+	
+	.menulateral {
+		background-color:#fffbe4;
+		border:1px solid #c9bc8f;
+		padding:10px;
+		float:right;
+		width:260px;
+	}
+	
+	
+	
+	.menulateral h3{
+		font-size: 10px;
+		margin-top:0;
+	}
+		
+	
+	
+	.menulateral ol {
+	font-size:12px;
+	}	
+	
+	
+	.lugares {
+		float:left;
+		width:660px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

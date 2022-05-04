@@ -1,0 +1,26 @@
+algoritmo "Calculation3000"
+var
+El,Br,Nu,Va:REAL
+enter:literal
+inicio
+escreva ("Bem vindo, ao Calculation3000 Powered By Y&I")
+leia (enter)
+escreva ("Favor, inserir total de Eleitores: ")
+Leia (El)
+Escreva ("Favor, inserir votos Brancos: ")
+Leia (Br)
+Escreva ("Favor, inserir votos Nulos: ")
+Leia (Nu)
+va <- el-br-nu
+Escreval ("Total de votos Válidos: " , va )
+
+
+br <- (100*br)/el
+escreval (" A porcentagem de votos brancos: ",br, "%")
+nu <- (100*nu)/el
+escreval (" A porcentagem de votos nulos: ",nu, "%")
+va <- (100*br)/el
+escreval (" A porcentagem de votos válidos: ",va, "%")
+
+
+fimalgoritmo

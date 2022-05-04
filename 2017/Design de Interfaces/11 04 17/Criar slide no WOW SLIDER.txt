@@ -1,0 +1,7 @@
+Criar slide no wow slider , clicar em publish, abrir a pasta de destino, copiar o iframe_index.html e colar no Index.html desejado.
+
+chamar através de : <div id="slide">
+
+<iframe src="pasta/index.html" style="...">
+
+</div>

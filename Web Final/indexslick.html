@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Yan Fonseca</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+ <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+	<style type="text/css">
+	
+	.tamanho {
+	height:52px;
+	width:auto;
+	background-color:#224F34;
+	
+	}
+	</style>
+	
+	<style type="text/css">
+		html, body {
+		margin: 0;
+		padding: 0;
+		}
+
+		* {
+		box-sizing: border-box;
+		}
+
+		.slider {
+		width: 100%;
+        margin: 100px auto;
+		}
+
+		.slick-slide {
+		margin: 0px 20px;
+		}
+
+		.slick-slide img {
+		width: 100%;
+		height: 250px ;
+		}
+
+		.slick-prev:before,
+		.slick-next:before {
+        color: #224F34;
+		}
+	
+	
+	</style>
+</head>
+<body>
+
+  <div class="row"> 													<!-- Top Menu -->
+			<div class="medium-12 columns">
+				<nav class="top-bar" data-topbar role="navigation">
+					<ul class="tittle-area">
+						<li class="toggle-topbar">
+							<a href="#"><span>Menu</span></a>
+						</li>
+					</ul>
+						<section class="top-bar-section">    					<!-- Aqui se lança os menus. -->
+							<ul class="left">
+								<li><a href="#"><img src="img/hom.gif"></a></li>
+								<li><a href="#"><img src="img/que.gif"></a></li>
+								<li><a href="#"><img src="img/proj.gif"></a></li>
+							</ul>
+						</section>
+				</nav>
+			</div>	
+		</div>
+		<div class="row">													<!-- 2 Linha: Banner TOP -->
+			<div class="medium-12 columns">
+			
+
+  <section class="autoplay slider">
+    <div>
+      
+	  <a href=""><img src="img/pan2.jpeg"></a>
+    </div>
+    <div>
+      <img src="img/pan3.jpeg">
+    </div>
+    <div>
+      <img src="">
+    </div>
+    <div>
+      <img src="">
+    </div>
+    <div>
+      <img src="">
+    </div>
+    <div>
+      <img src="">
+    </div>
+    <div>
+      <img src="">
+    </div>
+    <div>
+      <img src="">
+    </div>
+    <div>
+      <img src="">
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+	$(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      });
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+	  $('.autoplay').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 5000,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	  });
+      $(".variable").slick({
+        dots: true,
+        infinite: true,
+        variableWidth: true
+      });
+    });
+
+  </script>
+
+  </div>
+		</div>
+</body>
+</html>

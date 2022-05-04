@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CDSTORE - Cadastro - Compra</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+		<link rel="stylesheet" href="./css/foundation.css">
+		
+		
+	</head>
+	
+	<body class="cor">
+	
+			<div class="row cor2.1">
+				
+				
+					
+					
+						<img src="img/banner.jpg">
+					
+						<nav class="top-bar" data-topbar="" role="navigation" data-options="sticky_on: large">
+							<ul class="title-area">
+								<!-- Title Area -->
+								<li class="name">
+									<h1><a href="#">Loja virtual de CD's</a></h1>
+								</li>
+								<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+								<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+							</ul>
+
+	
+							<section class="top-bar-section">
+
+								<!-- Right Nav Section -->
+								<ul class="right">
+									<li class="divider hide-for-small"></li>
+									<li><a href="index.html">Home</a></li>
+							
+								</ul>
+							
+							</section>
+						</nav>
+						
+			<div class="medium-12 columns">	
+				<div class="row branco">
+	
+						<form method="post" #action=#> 
+											<!-- Metódo de envio mais seguro que o GET, porém mais lento.  Com o Método GET que é o comum, é mais facil de SQL Injection -->	
+											<!-- Opção #action=# envia para um local específico (tratamento do Banco de dados) 
+											"mailto:" envia o e-mail de resposta do formulário ao e-mail escrito, porém, precisa configurar POP3, SMTP etc. -->
+											
+								<!-- Formulário -->
+							
+								
+							
+							
+								
+
+							<div class="medium-6 columns">
+							<br>
+							Mensagem <textarea cols="0" rows="12"></textarea>
+							</div>
+			
+							
+		
+		
+		
+		
+							
+							<br>
+							<div class="medium-6 columns">Nome <input type="text" name="nome" required="required" placeholder="Inserir seu nome completo."></div>
+					
+							<div class="medium-6 columns">E-mail <input type="email" name="email" required="required" placeholder="Inserir seu e-mail."></div>
+							<div class="medium-6 columns">Onde nos encontrar:
+							<div class="test">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d1093.8477951315792!2d-43.45410304896629!3d-22.75607350166018!3m2!1i1024!2i768!4f13.1!4m6!3e
+							6!4m0!4m3!3m2!1d-22.756167599999998!2d-43.4533503!5e0!3m2!1spt-BR!2sbr!4v1489795710796" width="468" height="373" frameborder="0" style="border:0" allowfullsc
+							reen></iframe>
+							</div></div>
+							<div class="medium-12 columns">
+								<input class="button  botao" type="reset" value="Apagar Formulário">
+								<input class="button  botao" type="submit" value="Enviar dados">
+							
+							</div>
+							
+						</form>
+							
+	
+					
+							
+					
+				</div>
+			</div>
+		</div>
+				<div class="footer clear">
+				
+				<center><a href="http://facebook.com/yan.g.fonseca">Site desenvolvido por Anderson, Decio e Yan. Senac® 2016.4</a></button></center>
+				
+				</div>
+
+
+		<link rel="foundation.js" type="text/javascript" href="">
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+		<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).on('ready', function() {
+				$('.one-time').slick({
+				
+				dots: true,
+				infinite: true,
+				speed: 1000,
+				slidesToShow: 1,
+				adaptiveHeight: true,
+				autoplay: true,
+				autoplaySpeed: 5000,
+			});
+			});
+		</script>
+			
+			
+	</body>
+</html>

@@ -1,0 +1,35 @@
+body {
+	background: #fff1d6;
+	
+}
+
+.container {
+	margin:0 auto;
+	width:960px;
+}
+.lugar {
+	border: 1px solid #ccc;
+	border-color: #ccc #999 #ccc #999;
+	background-color:#fff;
+	margin-bottom:10px;
+	padding:10px;
+	
+}
+
+.lugar h2 {
+	border-bottom: 1px dashed #7e9f19;
+	border-color: #ccc #999 #ccc #999;
+	background-color:#fff;
+	margin-bottom:10px;
+	padding:10px;
+}
+.lugar a {
+	color:#2c88a7;
+	text-decoration:none;
+}
+.lugar a:hover {
+	background-color:red;
+	color:yellow;
+	text-decoration:none;
+	font-size:960px;
+}

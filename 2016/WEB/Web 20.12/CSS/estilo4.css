@@ -1,0 +1,59 @@
+.Cx1 {
+
+width:200px ;
+Height:200px ;
+Background-color: #4682B4 ;
+Border: 1px solid;
+float: left;
+margin:3px 3px 3px 3px;
+}
+
+.Cx2 {
+
+width:200px ;
+Height:200px ;
+Background-color: #4682B4 ;
+Border: 1px solid;
+float: left;
+margin:3px 3px 3px 3px;
+}
+
+.Cx3 {
+
+width:200px ;
+Height:200px ;
+Background-color: #4682B4 ;
+Border: 1px solid;
+float: left;
+margin:3px 3px 3px 3px;
+}
+
+.Cx4 {
+
+width:200px ;
+Height:200px ;
+Background-color: #4682B4 ;
+Border: 1px solid;
+float: left;
+margin:3px 0px 3px 3px;
+}
+
+.limpa {clear:both;}
+
+#menu {
+width: auto;
+height:15px;
+background-color:#B0C4DE;
+}
+#conteudo {
+width: auto;
+height: 900px;
+background-color: grey;
+float:bottom;
+}
+#rodape {
+width:auto;
+height: 20px;
+background-color:#708090 ;
+float:bottom;
+}

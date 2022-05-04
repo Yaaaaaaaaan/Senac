@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Aula 4 - Botões</title>
+	<meta charset="Utf-8">
+	<!-- Link externo para o arquivo estilo.css -->
+	<link rel="stylesheet" href="estilo.css" type="text/css">
+
+</head>
+<body>
+<button>Clique aqui...</button>
+<a class="but" href="#">Teste de link</a>
+<button class="but">Botão BUT</button>
+<a class="but sucesso grd" href="#">Botão sucesso.</a>
+<a class="but alerta med" href="#">Botão alerta.</a>
+<button class="but avançar peq" onclick="window.open ('https://www.youtube.com/watch?v=Zam9vcbA1XA');">Ver vídeo</button>
+</body>
+
+</html>

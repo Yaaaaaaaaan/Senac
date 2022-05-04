@@ -1,0 +1,159 @@
+/*Inicia foto-rolmento*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.bloco{
+	height:40px; width:100%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 , .bgimg-5, .bgimg-6{
+  position: relative;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image:url("../Fotos/fundo.jpg");
+  min-height: 500px;
+}
+
+.bgimg-2 {
+  background-image: url("../Fotos/banner.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("../Fotos/fundo.jpg");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("../Fotos/banner.jpg");
+  min-height: 800px;
+}
+
+.bgimg-5 {
+  background-image: url("../Fotos/fundo.jpg");
+  min-height: 800px;
+}
+
+.bgimg-6 {
+  background-image: url("../Fotos/fundo.jpg");
+  min-height: 600px;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #ddd;
+}
+
+
+.footer {
+    position: fixed;
+    height: 22px;
+    bottom: 0;
+    width: 100%;
+	font-size: auto;
+	color:#1E1E1E;
+	background-color:rgba(194,194,194,0.75);
+}	
+
+/* Tabela de preço verde */
+		.panel.price,
+		.panel.price>.panel-heading{
+			border-radius:0px;
+			 -moz-transition: all .3s ease;
+			-o-transition:  all .3s ease;
+			-webkit-transition:  all .3s ease;
+		}
+		.panel.price:hover{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .2);
+		}
+		.panel.price:hover>.panel-heading{
+			box-shadow: 0px 0px 30px rgba(0,0,0, .2) inset;
+		}
+		
+				
+		.panel.price>.panel-heading{
+			box-shadow: 0px 5px 0px rgba(50,50,50, .2) inset;
+			text-shadow:0px 3px 0px rgba(50,50,50, .6);
+		}
+			
+		.price .list-group-item{
+			border-bottom-:1px solid rgba(250,250,250, .5);
+		}
+		
+		.panel.price .list-group-item:last-child {
+			border-bottom-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		.panel.price .list-group-item:first-child {
+			border-top-right-radius: 0px;
+			border-top-left-radius: 0px;
+		}
+		
+		.price .panel-footer {
+			color: #fff;
+			border-bottom:0px;
+			background-color:  rgba(0,0,0, .1);
+			box-shadow: 0px 3px 0px rgba(0,0,0, .3);
+		}
+		
+		
+		.panel.price .btn{
+			box-shadow: 0 -1px 0px rgba(50,50,50, .2) inset;
+			border:0px;
+		}	
+	
+	.price.panel-green>.panel-heading {
+			color: #fff;
+			background-color: #57AC57;
+			border-color: #71DF71;
+			border-bottom: 1px solid #71DF71;
+		}
+		
+			
+		.price.panel-green>.panel-body {
+			color: #fff;
+			background-color: #65C965;
+		}
+				
+		
+		.price.panel-green>.panel-body .lead{
+				text-shadow: 0px 3px 0px rgba(50,50,50, .3);
+		}
+		
+		.price.panel-green .list-group-item {
+			color: #333;
+			background-color: rgba(50,50,50, .01);
+			font-weight:600;
+			text-shadow: 0px 1px 0px rgba(250,250,250, .75);
+		}
+
+/*Inicia visualização de img no cad*/

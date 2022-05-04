@@ -1,0 +1,42 @@
+
+#cxvermelha {width: 200px;
+		 height:200px;
+		 background-color:#FF3030;
+		 padding-top:15px;
+		 padding-left:10px;
+		 margin-bottom:30px;
+		 margin-right:30px;
+		 border-radius:20px;
+		 float:left;
+}
+#cxamarela{width: 200px; /* Largura */
+	       height:200px; /* Altura */
+		   padding-top:15px;
+		   padding-left:10px;
+		   margin-bottom:30px;
+		   background-color:#facc04; /* cor de fundo */
+		   float:left;
+		   border-radius:20px;
+		   margin-right:30px;
+}
+
+#cxlaranja{width:200px;
+		   height:200px;
+		   background-color:orange;
+		   float:left;
+		   padding-top:15px;
+		   padding-left:10px;
+		   margin-bottom:30px;
+		   border-radius:20px;
+		   margin-right:30px;
+}
+#cxverde{width:200px;
+		 height:200px;
+		 background-color:#90EE90;
+		 clear:both;
+		 padding-top:15px;
+		 padding-left:10px;
+		 margin-bottom:30px;
+		 border-radius:20px;
+		 margin-right:30px;
+}

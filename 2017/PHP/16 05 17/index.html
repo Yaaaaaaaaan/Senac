@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulário 1</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+	<div class="col-md-5"></div>
+		<div class="col-md-2">
+
+			<form action="form1.php" method="post">	
+			
+				<p><label for="nome">Nome</label>
+					<input class="form-control" type="text" placeholder="Insira seu nome aqui." name="nome"></p>
+				<p><label for="idade">Idade</label>
+						<input class="form-control" type="text" placeholder="Insira sua idade aqui." name="idade"></p>
+				<p><button type="button submit" class="btn btn-success pull-right">Submete</button></p>
+	
+			</form>
+		</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-md-5"></div>
+		<div class="col-md-2">
+			
+			<form action="form2.php" method="post">
+				
+				<p><label for="valor">Digite um valor (entre 1 e 3) </label>
+					<input class="form-control" type="text" placeholder="Insira qualquer valor aqui" name="valor"></p>
+				<p><button type="button submit" class="btn btn-success pull-right">Submete</button></p>
+				
+			</form>
+			
+		</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-md-3">
+		
+	</div>
+		<div class="col-md-6">
+			<form action="ativ.php" method="post">
+				<p><label for="cor">escolha uma cor da bandeira nacional.</label>
+				<input class="form-control" type="text" placeholder="Insira qualquer cor da Bandeira nacional aqui." name="cor"></p>
+				<p><button type="button submit" class="btn btn-success pull-right"> Submete</button></p>
+			</form>
+		</div>
+		<div class="col-md-3">
+			
+		</div>
+	</div>
+	
+    <div class="row">
+    	<div class="col-md-3">
+    	</div>
+    		<div class="col-md-6">
+        		<form action="ativs.php" method="post">
+        			<p><label for="aluno">Favor insira o nome do aluno.</label><input class="form-control" type="text" placeholder="Insira o nome do aluno aqui." name="aluno"></p>
+        		
+        				<p><label for="nota1">Favor insira a primeira nota do aluno.</label><input class="form-control" type="text" placeholder="Inserir nota do aluno." name="nota1"></p>
+        					<p><label for="nota2">Favor insira a segunda nota do aluno.</label><input class="form-control" type="text" placeholder="Inserir nota do aluno." name="nota2"></p>
+        						<p><label for="nota3">Favor insira a terceira nota do aluno.</label><input class="form-control" type="text" placeholder="Inserir nota do aluno." name="nota3"></p>
+        							<p><label for="nota4">Favor insira a quartaa nota do aluno.</label><input class="form-control" type="text" placeholder="Inserir nota do aluno." name="nota4"></p>
+        									<p><button type="button submit" class="btn btn-success pull-right"> Submete</button></p>
+        		</form>
+       	 </div>
+    </div>
+    
+    <div class="row">
+    	<div class="col-md-3">
+    		
+    	</div> 
+    	
+    		<div class="col-md-6">
+    	 		
+    	 		<form action="ativs_.php" method="post">
+    	 		<p><label for="nome">Favor, inserir nome do Hóspede.</label><input class="form-control" type="text" placeholder="Insira aqui o nome do Hóspede." name="nome"></p>
+    	 			<p><label for="sexo">Favor, Insira o sexo do Hóspede.</label>
+ 							<p><label class="radio-inline">
+  								<input type="radio" name="sexo" id="inlineRadio0" value="M">-Masculino.
+							</label></p>
+ 							<p><label class="radio-inline">
+  								<input type="radio" name="sexo" id="inlineRadio01" value="F">-Feminino.
+								</label></p></p>
+   	 			
+    	 			<p><label for="dias">Favor, Insira a quantidade de dias hospedados.</label>
+    	 				<input class="form-control" type="text" placeholder="Insira aqui a quantidade de dias hospedados." name="dias"></p>
+    	 				<p><label for="">Favor, Insira o modelo de diária.</label>
+    	 					<p><label class="radio-inline">
+  								<input type="radio" name="diaria" id="inlineRadio1" value="250">-250,00 Suíte padrão.
+							</label></p>
+									<p><label class="radio-inline">
+  										<input type="radio" name="diaria" id="inlineRadio2" value="280">-280,00 Suíte light.
+									</label></p>
+										<p><label class="radio-inline">
+											<input type="radio" name="diaria" id="inlineRadio3" value="350">-350,00 Suíte luxo.
+										</label></p>
+							</p>
+ 						  
+  							<label for="valor">Favor, Insira o valor das despesas extras.</label> 
+ 								<div class="form-group"  style="width:200px;">
+  							  		<label class="sr-only" for="valor">Valor (Em real)</label>
+    									<div class="input-group">
+     									 <div class="input-group-addon">R$</div>
+     										 <input type="text" class="form-control" id="exampleInputAmount" placeholder="Valor" name="valor">
+     											 <div class="input-group-addon">,00</div>
+     												
+  									
+										</div>
+								</div>
+						   
+								<button type="button submit" class="btn btn-success"> Submete</button>
+							
+    	 		</form>
+    	 		
+    	 	</div> 
+    	<div class="col-md-3">
+    		
+    	</div> 
+    	 
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="file:///F|/TUDO/Senac/projetos/2017/PHP/16 05 17/bootstrap/bootstrap/js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="file:///F|/TUDO/Senac/projetos/2017/PHP/16 05 17/bootstrap/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

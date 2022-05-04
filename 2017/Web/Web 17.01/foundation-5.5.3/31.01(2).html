@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Foundation | Welcome</title>
+		<link rel="stylesheet" href="css/foundation.css" />
+		<script src="js/vendor/modernizr.js"></script>
+	</head>
+	
+	<body>
+	<div class="row">
+	<div class="medium-12 columns">
+	<Center><h1>Formulário de cadastro</center>
+	</div>
+	</div>
+		<form method="post">
+			<div class="row">
+			
+				<div class="medium-6 columns">
+					Matrícula <input type="text" name="mat" required="required" placeholder="Exemplo: 123ab">
+				</div>
+			
+				<div class="medium-6 columns">
+					Data da Inclusão <input type="date" name="incl" >
+				</div>
+				
+			</div>
+			
+						<div class="row">
+						
+							<div class="medium-9 columns">
+							Nome <input type="text" name="nome" placeholder="Exemplo: Juca Monteiro">
+							</div>
+						
+							<div class="medium-3 columns">
+							Função <select>
+							<option value="Professor">Professor</option>
+							<option value="Limpeza">Limpeza</option>
+							<option value="Manutenção">Manutenção</option>
+							<option value="Recepção">Recepção</option>
+						</div>	
+						
+			<div class="row">
+			
+				<div class="medium-6 columns">
+					Turno <br>
+					<input type="radio" name="turno" value="manha">M<br>
+					<input type="radio" name="turno" value="tarde">T<br>
+					<input type="radio" name="turno" value="noite">N<br>
+				</div>
+				
+				<div class="medium-6 columns">
+				
+			</div>
+			
+		</form>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

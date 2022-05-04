@@ -1,0 +1,5 @@
+https://pt.stackoverflow.com/questions/91901/mostrar-imagem-sob-outra-com-hover-css
+http://www.kadunew.com/blog/css/mostrar-legenda-ao-passar-o-mouse-sobre-imagens
+http://www.kadunew.com/blog/exemplo-legenda-css.html#
+
+http://css3generator.com/

@@ -1,0 +1,101 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>Formulário</title>
+					<link rel="stylesheet" href="css/foundation.css" />
+						<script src="js/vendor/modernizr.js"></script>
+	</head>
+	<body>
+	<form method="post"> <!-- Metódo de envio mais seguro que o GET, porém mais lento.  Com o Método GET que é o comum, é mais facil de SQL Injection -->	
+		<!-- Opção #action=# envia para um local específico (tratamento do Banco de dados) 
+		"mailto:" envia o e-mail de resposta do formulário ao e-mail escrito, porém, precisa configurar POP3, SMTP etc. -->
+		<div class="row">
+			<div class="medium-12 columns">
+								<!-- Formulário -->
+					Nome <input type="text" name="nome" required="required" placeholder="Digite seu nome">
+			</div>
+		</div>
+		<div class="row">	
+		<div class="medium-9 columns">
+				Endereço <input type="text" name="endereco">
+		</div>
+		<div class="medium-3 columns">
+				Número <input type="text" name="numero">
+		</div>
+		</div>
+		
+		<div class="row">
+			
+			<div class="medium-4 columns">
+				Matrícula <input type="text" name="matricula">
+ 			</div>
+			
+				<div class="medium-4 columns">
+					Data Matrícula <input type="date" name="dtcad">
+				</div>
+				
+			<div class="medium-4 columns">
+				Email <input type="email" name="email">
+			</div>
+			
+		</div>
+		
+		
+		
+		
+			<div class="row">
+			<div class="medium-6 columns">
+				Curso
+				
+				<select>
+					<option value="Web designer">Web designer</option>
+					<option value="HTML 5">HTML 5</option>
+					<option value="CSS 3">CSS 3</option>
+					<option value="PHP">PHP</option>
+					<option value="JAVA">JAVA</option>
+				</select>
+			</div>
+			
+			
+			<div class="medium-6 columns">
+				Escolaridade
+				<select>
+					<option value="Fundamental">Fundamental</option>
+					<option value="Médio">Médio</option>
+					<option value="Técnico">Técnico</option>
+					<option value="Superior">Superior</option>
+					<option value="Pós">Pós</option>
+				</select>
+			</div>
+			</div> 
+			
+			<div class ="row">
+			<div class="medium-6 columns">
+					Escolha seu Turno <br>
+					<input type="radio" name="turno" value="manha">Café<br>
+					<input type="radio" name="turno" value="tarde">Almoço<br>
+					<input type="radio" name="turno" value="noite">janta<br>
+			</div>
+			<div class="medium-6 columns">
+			Escolha seus Hobbies <br>
+			<input type="checkbox"name="futebol">Futfrenezi<br>
+			<input type="checkbox"name="volei">voleifrenezi<br>
+			<input type="checkbox"name="natacao">crawlfrenezi<br>
+			<input type="checkbox"name="judo">ipponfrenezi<br>
+			</div>
+			<div class="row">
+				<div class="medium-6 columns">
+				<input class="button alert" type="reset" value="Apagar Formulário">
+				<input class="button alert" type="submit" value="Enviar dados">
+				</div>
+			</div>
+		</form>
+				<script src="js/vendor/jquery.js"></script>
+					<script src="js/foundation.min.js"></script>
+						<script>
+							$(document).foundation();
+						</script>
+	</body>
+</html>

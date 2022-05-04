@@ -1,0 +1,107 @@
+<html lang="pt-br">
+	<meta charset="utf-8">
+		<head>
+		
+		<title>Aula dia 15.02</title>
+		<link rel="stylesheet" type="text/css" href="cssfrenettico.css" />
+		
+		<script language="javascript">
+		<!--
+			function Mudacor(cor){
+				switch(cor){
+					case 'Azul':document.bgColor='#187eb2';break;
+					
+					case 'Ciano':document.bgColor='#1997b6';break;
+					
+					case 'Vermelho':document.bgColor='#FF0000';break; 
+					
+					case 'Amarelo':document.bgColor='#ceff0d';break; 
+					
+					case 'Preto':document.bgColor='#000000';break; 
+				
+					case 'Verde':document.bgColor='#1db587';break ; 
+					
+					case 'Padrão':document.bgColor='#FFFFFF';break ; 
+					
+				}
+			
+			}
+			
+			function ChecCampo(Texto) {
+				if(texto.value==''){
+					alert('O campo '+Texto.name+' não foi preenchido');
+				}
+			}	
+
+			function VerificaAlt(Alt) {
+				if(alt.value.lenght>0){
+					alert('O campo '+Alt.name+' já foi preenchido');
+				}
+			}
+			
+			function ChecaCEP () {
+				if (document.Formulario.CEP.value.lenght!=8){
+					Alert('O campo CEP não foi preenchido corretamente');
+				}
+			}
+			
+			function EnviarForm(){
+				if (confirm('Deseja enviar o formulário agora?!'))
+					{
+						return true;
+					}
+					else
+					{
+						return false;
+					}
+					}
+			
+		
+		//-->
+		</script>
+		</head>
+	
+	<body>
+		<div class="row">
+			<div class="medium-12 columns"> 
+				<form name="form" method="post" action="" onsubmit="return EnviarForm()">
+					<div id="cor">
+						<center>Escolha a cor do site...<br>
+	
+						<input type="Radio" name="Fundo" onClick=Mudacor('Azul')> Azul
+						<input type="Radio" name="Fundo" onClick=Mudacor('Ciano')> Ciano
+						<input type="Radio" name="Fundo" onClick=Mudacor('Vermelho')> Vermelho
+						<input type="Radio" name="Fundo" onClick=Mudacor('Amarelo')> Amarelo
+						<input type="Radio" name="Fundo" onClick=Mudacor('Preto')> Preto
+						<input type="Radio" name="Fundo" onClick=Mudacor('Verde')> Verde
+						<input type="Radio" name="Fundo" onClick=Mudacor('Padrão')> Padrão <br> </center>
+	
+					</div>
+				
+				
+				<div id="caixas">
+				
+				Qual o seu nome?
+				<input type="Text" name="Nome" size="auto" onChange="VerificaAlt(this)" onBlur="ChecCampo(this)"><br>
+				
+				Qual seu E-mail?
+				<input type="text" name="Email" size="auto" onBlur=ChecaMail()><br>
+				
+				Respectivo ano de seu Nascimento?
+				<input type="text" name="Ano" size="auto" onChange="VerificaAlt(this)" onBlur="ChecCampo(this)">
+				
+				<input type="Text" name="Id" size="3" onFocus= Calcula()> Anos<br>
+				
+				Qual seu endereço:
+				<input type="text" name="End" size="auto" onChange="VerificaAlt(this)" onBlur="ChecCampo(this)"><br>
+				
+				Qual seu CEP?
+				<input type="text" name="CEP" size="auto" onChange="VerificaAlt(this)" onBlur="ChecaCEP()"><br>
+				<input type="Submit" value="Enviar">
+				<input type="Reset" value="Limpar Dados">
+				</div>
+			</div>
+			</form>
+		</div>
+	</body>
+</html>

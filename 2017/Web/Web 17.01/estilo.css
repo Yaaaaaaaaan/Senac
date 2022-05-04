@@ -1,0 +1,34 @@
+.but {
+display:inline-block;
+background-color: #ccc;
+color:#444;
+padding:10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: helvetic, arial, sans-senif;
+font-size: 14px;
+border: 0px;
+background-image:linear-gradient(to bottom,transparent,rgba(0,0,0,.15));
+border-radius: 20px;
+margin-top:10px;
+}
+
+.sucesso {color:#fff;
+background-color:#0068b4;
+
+}
+
+.alerta {color: #fff;
+background-color: #CD0000;
+}
+
+.avançar {color: #fff;
+background-color: #009835;
+}
+
+.peq{font-size:60%;
+}
+.med{font-size:100%;
+}
+.grd{font-size:240%;
+}
